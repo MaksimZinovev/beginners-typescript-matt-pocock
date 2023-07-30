@@ -1,3 +1,8 @@
+import { error } from "console";
+import { expect } from "vitest";
+
+type UserRole = "admin" | "user" | "super-admin";
+
 interface User {
   id: number;
   firstName: string;
@@ -8,7 +13,7 @@ interface User {
    * - 'user'
    * - 'super-admin'
    */
-  role: string;
+  role: UserRole;
 }
 
 export const defaultUser: User = {
@@ -16,5 +21,5 @@ export const defaultUser: User = {
   firstName: "Matt",
   lastName: "Pocock",
   // @ts-expect-error
-  role: "I_SHOULD_NOT_BE_ALLOWED",
+  role: 1,
 };
