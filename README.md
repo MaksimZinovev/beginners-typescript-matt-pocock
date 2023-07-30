@@ -1,5 +1,10 @@
 <a href="https://totaltypescript.com/tutorials/beginners-typescript"><img src="https://res.cloudinary.com/total-typescript/image/upload/v1664461034/beginners-typescript-tutorial/github_2x_himnyi.png" alt="beginner typescript tutorial" /></a>
 
+## About  
+
+This is a repo with all 18 exercises completed. Cloned from [total-typescript/beginners-typescript-tutorial: An interactive TypeScript tutorial for beginners](https://github.com/total-typescript/beginners-typescript-tutorial). 
+This is a free tutorial created by Matt Pocock. Great resource for beginners. Highly recommended.
+
 ## Quickstart
 
 Take the course on [Total TypeScript](https://totaltypescript.com/tutorials/beginners-typescript). There, you'll find:
